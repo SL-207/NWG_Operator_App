@@ -18,10 +18,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
+//import com.google.android.gms.tasks.OnFailureListener;
+//import com.google.firebase.storage.FirebaseStorage;
+//import com.google.firebase.storage.StorageReference;
+//import com.google.firebase.storage.UploadTask;
 
 import java.io.ByteArrayOutputStream;
 import java.text.SimpleDateFormat;
@@ -37,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button jobBtn = findViewById(R.id.jobbtn);
         jobBtn.setOnClickListener(view ->{
+            startActivity(new Intent(MainActivity.this, JobActivity.class));
+        });
+        Button scheduleBtn = findViewById(R.id.schedulebtn);
+        scheduleBtn.setOnClickListener(view ->{
+            startActivity(new Intent(MainActivity.this, JobActivity.class));
+        });
+        Button gpsBtn = findViewById(R.id.gpsbtn);
+        gpsBtn.setOnClickListener(view ->{
             startActivity(new Intent(MainActivity.this, JobActivity.class));
         });
 
