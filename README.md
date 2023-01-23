@@ -1,1 +1,2 @@
 # NWG_Operator_App
+Created a deep ML model to detect the material of Pipes from images and an Android app to for maintainence reports in under 12 hours as part of the NWG hackathon. ML model boasting 82+% in detecting metal and concrete pipes. <img width="637" alt="Screenshot 2023-01-23 at 17 35 49" src="https://user-images.githubusercontent.com/60429563/214148083-1687cbdd-cc02-43f3-989d-c8a23924b938.png">
